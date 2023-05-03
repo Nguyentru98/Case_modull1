@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(228, 190, 140);
+}
+
+
+
+.import{
+    background-color:white;
+    border: 1px solid;
+    width: 50%;
+    margin: 0 auto 20px auto;  /* căn giữa toàn bộ thẻ div ra giữa trang */
+    padding: 10px;
+    font-family: 'Poppins', sans-serif; 
+
+    
+    
+}
+.import h1 {
+    text-align: center;
+}
+
+.import input {
+  margin-left: 10px;
+}
+
+.import  p {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.import button {
+    margin-left: 20px;
+    margin-right:-20px;
+}
+
+.display {
+    background-color: white;
+    margin:auto;
+    width: 50%;
+    text-align:center;
+    border: 1px solid;
+    margin-top: 20px;
+    padding:10px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.table{
+    width: 100%;
+    background-color:white;
+    border: 1px solid;
+    margin:auto;  /* căn giữa toàn bộ thẻ div ra giữa trang */
+    padding: 30px;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 20px;
+    border-collapse: collapse /*   viền của các ô sẽ được kết hợp với nhau để tạo thành một đường viền duy nhất */
+}
+
+

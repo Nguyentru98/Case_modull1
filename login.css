@@ -1,0 +1,42 @@
+body{
+    background :url(https://img.freepik.com/premium-psd/3d-render-glassy-background-modern-glass-morphism-style_125452-3204.jpg?size=626&ext=jpg&ga=GA1.1.1828988579.1682674584&semt=ais);
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+
+h2{
+    display: inline-block;
+    color: rgb(35, 114, 114);
+}
+
+.login{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(237, 224, 224);
+    border: 1px solid;
+    border-radius: 10px; 
+    text-align: center;
+    margin:auto;
+}
+
+.login input{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 1px;
+    
+}
+
+.login button{
+    border: 1px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+    background-color:rgb(85, 85, 201);
+
+
+}

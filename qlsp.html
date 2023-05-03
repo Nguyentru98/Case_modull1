@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product management</title>
+    <link rel="stylesheet" href="qlsp.css">
+    <script src="qlsp.js"></script>
+</head>
+<body>
+    
+    <html>
+
+    <div class="import">
+        <h1>Product management</h1>
+        <p>Product's name (tên sản phẩm) :</p>
+        <input type="text"  id="nameProduct">
+        <p>Quantity (số lượng sản phẩm):</p>
+        <input type="number"  id="quantity">
+        <p>Product Price (giá sản phẩm):</p>
+        <input type="number"  id="price">
+        <br>
+        <br>
+        <button onclick="add()">Add</button>
+        <button onclick="save()">Save</button>
+    </div>
+
+    <div class="import" id="tbl">
+        <div class="action">
+            <p>Search product:</p>
+            <input type="text" id="keyword">
+            <button onclick="searchProduct()">Search</button>
+        </div>
+        <table class="table" border="1px" id="tb"></table>
+    </div>
+    
+
+
+       
+
+    </html>
+</body>
+</html>
